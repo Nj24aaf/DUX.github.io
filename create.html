@@ -1,0 +1,12 @@
+<!DOCTYPE html><html><head><meta name='viewport' content='width=device-width,initial-scale=1'><title>Create</title><link rel='stylesheet' href='css/style.css'></head><body>
+<header>
+<h1>Notify</h1>
+<nav>
+<a href="index.html">Home</a>
+<a href="login.html">Login</a>
+<a href="create.html">Create Reminder</a>
+<a href="reminders.html">My Reminders</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+<form id='reminderForm'><h2>Create Reminder</h2><label>Title</label><input type='text' required><label>Date</label><input type='date' required><label>Time</label><input type='time' required><label>Type</label><select><option>Reminder</option><option>Alarm</option></select><button>Create Reminder</button><p id='message'></p></form><div id='popup' class='modal'><div class='modal-content'><p>Reminder Created!</p><button onclick='closePopup()'>Close</button></div></div><script src='js/script.js'></script></body></html>
