@@ -279,6 +279,8 @@ The final design provides a user-friendly experience while meeting the needs of 
 | Nelson Julius| User research, wireframes, README, User personas, Accessibility review, Competitive analysis |
 
 ---
+# Bugs
+The final design contains a few bugs that were not fixed or features that were no yet implemented such as reminders not actually saving after creation, being unable to delete or edit reminders that already exist and the login feature doesnt work even though there is a page for it and the user can input data
 
 # References
 
